@@ -13,7 +13,7 @@ import br.com.artur.domain.jpa.ProdutoJpa;
 public class ProdutoJpaDAO extends GenericJpaDAO<ProdutoJpa, Long> implements IProdutoJpaDAO {
 
 	public ProdutoJpaDAO() {
-		super(ProdutoJpa.class);
+		super(ProdutoJpa.class, "Postgre1");
 	}
 
 }

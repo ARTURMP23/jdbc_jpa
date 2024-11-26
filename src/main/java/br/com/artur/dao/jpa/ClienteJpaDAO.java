@@ -10,10 +10,10 @@ import br.com.artur.domain.jpa.ClienteJpa;
  * @author artur.matos
  *
  */
-public class ClienteJpaDAO extends GenericJpaDAO<ClienteJpa, Long> implements IClienteJpaDAO {
+public class ClienteJpaDAO extends GenericJpaDAO<ClienteJpa, Long> implements IClienteJpaDAO<C> {
 
 	public ClienteJpaDAO() {
-		super(ClienteJpa.class);
+		super(ClienteJpa.class, "Postgre1");
 	}
 
 }

@@ -6,7 +6,7 @@ package br.com.artur.services.generic.jpa;
 import java.io.Serializable;
 import java.util.Collection;
 
-import br.com.artur.dao.Persistente;
+import br.com.artur.domain.jpa.Persistente;
 import br.com.artur.exceptions.DAOException;
 import br.com.artur.exceptions.MaisDeUmRegistroException;
 import br.com.artur.exceptions.TableException;

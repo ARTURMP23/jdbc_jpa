@@ -6,7 +6,6 @@ package br.com.artur.services.generic;
 import java.io.Serializable;
 import java.util.Collection;
 
-import br.com.artur.dao.Persistente;
 import br.com.artur.dao.generic.IGenericDAO;
 import br.com.artur.exceptions.DAOException;
 import br.com.artur.exceptions.MaisDeUmRegistroException;

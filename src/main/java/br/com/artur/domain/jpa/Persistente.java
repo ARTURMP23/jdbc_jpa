@@ -1,4 +1,4 @@
-package br.com.artur.dao;
+package br.com.artur.domain.jpa;
 
 /**
  * @author artur.matos
@@ -8,8 +8,8 @@ package br.com.artur.dao;
 public interface Persistente {
 
     //public Long getCodigo();
-	
-	public Long getId();
-	
-	public void setId(Long id);
+
+    public Long getId();
+
+    public void setId(Long id);
 }

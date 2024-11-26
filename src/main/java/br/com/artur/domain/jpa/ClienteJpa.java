@@ -11,8 +11,6 @@ import jakarta.persistence.Id;
 import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
 
-import br.com.artur.dao.Persistente;
-
 /**
  * @author artur.matos
  *

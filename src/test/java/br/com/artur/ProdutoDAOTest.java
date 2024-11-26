@@ -14,9 +14,6 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
 
-import br.com.artur.dao.IProdutoDAO;
-import br.com.artur.dao.ProdutoDAO;
-import br.com.artur.domain.Produto;
 import br.com.artur.exceptions.DAOException;
 import br.com.artur.exceptions.MaisDeUmRegistroException;
 import br.com.artur.exceptions.TableException;

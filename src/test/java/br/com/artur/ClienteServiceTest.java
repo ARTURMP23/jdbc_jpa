@@ -7,13 +7,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.artur.dao.ClienteDaoMock;
-import br.com.artur.dao.IClienteDAO;
-import br.com.artur.domain.Cliente;
 import br.com.artur.exceptions.DAOException;
 import br.com.artur.exceptions.TipoChaveNaoEncontradaException;
-import br.com.artur.services.ClienteService;
-import br.com.artur.services.IClienteService;
 
 /**
  * @author artur.matos

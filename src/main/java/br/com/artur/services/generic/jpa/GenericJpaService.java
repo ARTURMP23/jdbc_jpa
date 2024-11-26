@@ -6,8 +6,8 @@ package br.com.artur.services.generic.jpa;
 import java.io.Serializable;
 import java.util.Collection;
 
-import br.com.artur.dao.Persistente;
 import br.com.artur.dao.generic.jpa.IGenericJpaDAO;
+import br.com.artur.domain.jpa.Persistente;
 import br.com.artur.exceptions.DAOException;
 import br.com.artur.exceptions.MaisDeUmRegistroException;
 import br.com.artur.exceptions.TableException;
@@ -17,7 +17,7 @@ import br.com.artur.exceptions.TipoChaveNaoEncontradaException;
  * @author artur.matos
  *
  */
-public abstract class GenericJpaService<T extends Persistente, E extends Serializable> 
+public abstract class GenericJpaService<T extends Persistente, E extends Serializable>
 	implements IGenericJpaService<T, E> {
 	
 	protected IGenericJpaDAO<T, E> dao;

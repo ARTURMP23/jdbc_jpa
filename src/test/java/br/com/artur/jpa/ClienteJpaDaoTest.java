@@ -26,7 +26,7 @@ import br.com.artur.exceptions.TipoChaveNaoEncontradaException;
  */
 public class ClienteJpaDaoTest {
 	
-	private IClienteJpaDAO clienteDao;
+	private IClienteJpaDAO<C> clienteDao;
 	
 	private Random rd;
 	

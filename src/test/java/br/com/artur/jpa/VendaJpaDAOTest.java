@@ -44,7 +44,7 @@ public class VendaJpaDAOTest {
 	
 	private IVendaJpaDAO vendaExclusaoDao;
 
-	private IClienteJpaDAO clienteDao;
+	private IClienteJpaDAO<C> clienteDao;
 	
 	private IProdutoJpaDAO produtoDao;
 	

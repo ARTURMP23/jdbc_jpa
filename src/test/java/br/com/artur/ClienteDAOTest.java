@@ -11,9 +11,6 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
 
-import br.com.artur.dao.ClienteDAO;
-import br.com.artur.dao.IClienteDAO;
-import br.com.artur.domain.Cliente;
 import br.com.artur.exceptions.DAOException;
 import br.com.artur.exceptions.MaisDeUmRegistroException;
 import br.com.artur.exceptions.TableException;

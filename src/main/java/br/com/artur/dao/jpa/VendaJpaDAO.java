@@ -22,7 +22,7 @@ import br.com.artur.exceptions.TipoChaveNaoEncontradaException;
 public class VendaJpaDAO extends GenericJpaDAO<VendaJpa, Long> implements IVendaJpaDAO {
 
 	public VendaJpaDAO() {
-		super(VendaJpa.class);
+		super(VendaJpa.class, "Postgre1");
 	}
 
 	@Override

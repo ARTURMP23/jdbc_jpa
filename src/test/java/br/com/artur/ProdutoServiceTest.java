@@ -9,13 +9,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.artur.dao.IProdutoDAO;
-import br.com.artur.dao.ProdutoDaoMock;
-import br.com.artur.domain.Produto;
 import br.com.artur.exceptions.DAOException;
 import br.com.artur.exceptions.TipoChaveNaoEncontradaException;
-import br.com.artur.services.IProdutoService;
-import br.com.artur.services.ProdutoService;
 
 /**
  * @author artur.matos

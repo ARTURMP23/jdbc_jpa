@@ -21,17 +21,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import br.com.artur.dao.ClienteDAO;
-import br.com.artur.dao.IClienteDAO;
-import br.com.artur.dao.IProdutoDAO;
-import br.com.artur.dao.IVendaDAO;
-import br.com.artur.dao.ProdutoDAO;
-import br.com.artur.dao.VendaDAO;
 import br.com.artur.dao.generic.jdbc.ConnectionFactory;
-import br.com.artur.domain.Cliente;
-import br.com.artur.domain.Produto;
-import br.com.artur.domain.Venda;
-import br.com.artur.domain.Venda.Status;
 import br.com.artur.exceptions.DAOException;
 import br.com.artur.exceptions.MaisDeUmRegistroException;
 import br.com.artur.exceptions.TableException;

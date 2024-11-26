@@ -1,6 +1,5 @@
 package br.com.artur.dao.generic;
 
-import br.com.artur.dao.Persistente;
 import br.com.artur.exceptions.DAOException;
 import br.com.artur.exceptions.MaisDeUmRegistroException;
 import br.com.artur.exceptions.TableException;

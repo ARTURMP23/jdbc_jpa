@@ -7,11 +7,11 @@ import java.io.Serializable;
 import java.util.Collection;
 import java.util.List;
 
+import br.com.artur.domain.jpa.Persistente;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 
-import br.com.artur.dao.Persistente;
 import br.com.artur.exceptions.DAOException;
 import br.com.artur.exceptions.MaisDeUmRegistroException;
 import br.com.artur.exceptions.TableException;
@@ -29,7 +29,7 @@ public class GenericJpaDAO <T extends Persistente, E extends Serializable> imple
 	
 	private Class<T> persistenteClass;
 	
-	public GenericJpaDAO(Class<T> persistenteClass) {
+	public GenericJpaDAO(Class<T> persistenteClass, String postgre1) {
 		this.persistenteClass = persistenteClass;
 	}
 	

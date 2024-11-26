@@ -10,6 +10,6 @@ import br.com.artur.domain.jpa.ClienteJpa;
  * @author artur.matos
  *
  */
-public interface IClienteJpaDAO extends IGenericJpaDAO<ClienteJpa, Long> {
+public interface IClienteJpaDAO<C> extends IGenericJpaDAO<ClienteJpa, Long> {
 
 }

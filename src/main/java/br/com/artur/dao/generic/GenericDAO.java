@@ -17,7 +17,6 @@ import java.util.List;
 import anotacao.ColunaTabela;
 import anotacao.Tabela;
 import anotacao.TipoChave;
-import br.com.artur.dao.Persistente;
 import br.com.artur.dao.generic.jdbc.ConnectionFactory;
 import br.com.artur.exceptions.DAOException;
 import br.com.artur.exceptions.MaisDeUmRegistroException;
